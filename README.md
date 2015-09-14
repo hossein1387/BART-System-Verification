@@ -4,4 +4,4 @@ This repository contains the BART (Bay Area Rapid Transit) system model and Impl
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wO1HBslPy88
 " target="_blank"><img src="http://img.youtube.com/vi/wO1HBslPy88/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="540" height="380" border="50" /></a>
