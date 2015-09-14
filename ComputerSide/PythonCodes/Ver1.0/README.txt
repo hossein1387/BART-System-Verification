@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------
-// Company: Concordia University
+// Company: Concordia University, Hardware Verification Group
 // Author : MohammadHossein Askari-Hemmat
 // Design Name: BART system simulator
 // Date: 12.29.2014
