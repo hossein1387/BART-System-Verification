@@ -1,5 +1,4 @@
 //--------------------------------------------------------------------------------
-// File name: README.txt
 // Company: Concordia University
 // Author : MohammadHossein Askari-Hemmat
 // Design Name: BART system simulator
