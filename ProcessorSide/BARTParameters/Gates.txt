@@ -1,0 +1,18 @@
+Gate 'Dublin/Pleasanton (DUBL)' is located at 27.6581521603 is Open
+Gate 'West Dublin/Pleasanton (WDUB)' is located at 2697.67168648 is Open
+Gate 'Castro Valley (CAST)' is located at 16129.5900042 is Open
+Gate 'Bay Fair (BAYF)' is located at 21396.1761693 is Open
+Gate 'San Leandro (SANL)' is located at 25428.4265761 is Open
+Gate 'Coliseum/Oakland Airport (COLS)' is located at 30028.609238 is Open
+Gate 'Fruitvale (FTVL)' is located at 33273.5628714 is Open
+Gate 'Lake Merritt (LAKE)' is located at 37714.1837826 is Open
+Gate 'West Oakland (WOAK)' is located at 40577.9900176 is Open
+Gate 'Embarcadero (EMBR)' is located at 50023.7818701 is Open
+Gate 'Montgomery St. (MONT)' is located at 50577.6855601 is Open
+Gate 'Powell St. (POWL)' is located at 51441.5310924 is Open
+Gate 'Civic Center/UN Plaza (CIVC)' is located at 52306.3549054 is Open
+Gate '16th St. Mission (16TH)' is located at 53932.1990199 is Open
+Gate '24th St. Mission (24TH)' is located at 55350.1604208 is Open
+Gate 'Glen Park (GLEN)' is located at 58038.2806387 is Open
+Gate 'Balboa Park (BALB)' is located at 59855.1209469 is Open
+Gate 'Daly City (DALY)' is located at 62690.6771109 is Open

@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Untitled Page</title>
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<style>
+  .infoDiv {
+    height: 70px;    
+    width: 150px; 
+    -webkit-user-select: none; 
+    background-color: white; 
+    font-family:Tahoma;
+    font-size:8pt;
+    }
+</style>
+
+</head>
+<body>
+    <div id="map_canvas" style="width: 100%; height: 100%;"></div>
+    <script type="text/javascript">
+
+      var  centerMap = new google.maps.LatLng('37.70169', '-121.9003');
+      var  mapOptions = {
+            zoom: 16,
+            center: centerMap,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+        };
+        
+     var   map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+
+     var marker = new google.maps.Marker({
+                'position': new google.maps.LatLng('37.70169', '-121.9003'),
+                'map': map,
+                'title': "Title"
+               });
+
+     var infowindow = new google.maps.InfoWindow({
+                content: "<div class='infoDiv'><h4>CEWorld</h4>Latitude: 35.715425 <br/> Longtitude: 51.417804</div>"
+            });
+
+     google.maps.event.addListener(marker, 'click', function () {
+                infowindow.open(map, marker);
+            });
+
+var la='37.70169';
+var lo='-121.9003';
+setInterval(function(){update()},300);
+
+function ReadLon(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                lo = allText;
+            }
+        }
+    }
+    rawFile.send(null);
+}
+function ReadLat(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                la = allText;
+            }
+        }
+    }
+    rawFile.send(null);
+}
+function makeMarker(){
+      var marker = new google.maps.Marker({
+                'position': new google.maps.LatLng(la, lo),
+                'map': map,
+                'title': "Title"
+               });
+}
+function update(){
+    makeMarker();
+    ReadLat("file:///Users/Hossein/Dropbox/My Works/CODES/Python/BART_Simulator/LAT_COOR.dat");
+    ReadLon("file:///Users/Hossein/Dropbox/My Works/CODES/Python/BART_Simulator/LON_COOR.dat");
+}
+    </script>
+</body>
+</html>

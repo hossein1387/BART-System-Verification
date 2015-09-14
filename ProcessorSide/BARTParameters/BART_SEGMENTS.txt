@@ -1,0 +1,5 @@
+Segment: DUBL_CAST_E starts at 0km and ends in 16.0001978529km ---> Segment length:16000.1978529
+Segment: CAST_E_BAYF_S starts at 16.0001978529km and ends in 19.7048957742km ---> Segment length:3704.69792135
+Segment: OAKY_BAYF_S starts at 19.7048957742km and ends in 38.1585092467km ---> Segment length:18453.6134725
+Segment: OAKY_SE starts at 38.1585092467km and ends in 38.7491571804km ---> Segment length:590.647933648
+Segment: OAKY_DALY starts at 38.7491571804km and ends in 62.6906771109km ---> Segment length:23941.5199305
