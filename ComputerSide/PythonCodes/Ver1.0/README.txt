@@ -23,11 +23,8 @@ BART system please refer to the following links:
 
 The propose of this project is to show the features of the developed tool for rapid
 prototyping. This case study is consist of three main parts:
-	1- A UML Activity diagrams which represents the high level behavior of the Station Computer
-	   in BART system
-	2- A Model to code generator which automatically converts the high level model,
-	   represented in UML, to the low level C/C++ code ready to be implemented on a target 
-	   platform.
+	1- A UML Activity diagrams which represents the high level behavior of the Station Computer in BART system
+	2- A Model to code generator which automatically converts the high level model, represented in UML, to the low level C/C++ code ready to be implemented on a target platform.
 	3- A python script which will simulate trains, gates, segments in the BART system
 The main task in this case study is to implement a control algorithm to control the speed and 
 acceleration of trains in a way that meet the following constraint:
