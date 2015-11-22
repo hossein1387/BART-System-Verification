@@ -8,7 +8,7 @@
 // Compiler Versions: Keil 5.1
 // RTOS: RTX 4.74 From Keil
 // Version: 1.1 (Concurrency and thread creation is supported in this version)
-// Original diagram can be found in: /Users/Hossein/Documents/Topcased/ComputerStation/Models/ComputerStation
+// Original diagram can be found in: ...
 // Date: 2015/01/03  08:43:07
 //--------------------------------------------------------------------------------------------
 #include <MKL46Z4.h>
